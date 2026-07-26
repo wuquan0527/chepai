@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 应用使用无 ActionBar 的基础主题即可，配色在 Compose 端处理 -->
+    <style name="Theme.VzLPRController" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
