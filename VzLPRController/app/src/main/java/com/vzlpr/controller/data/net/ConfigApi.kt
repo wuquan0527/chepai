@@ -2,9 +2,9 @@ package com.vzlpr.controller.data.net
 
 import com.burgstaller.okhttp.AuthenticationCacheInterceptor
 import com.burgstaller.okhttp.DispatchingAuthenticator
-import com.burgstaller.okhttp.digest.BasicAuthenticator
+import com.burgstaller.okhttp.basic.BasicAuthenticator
 import com.burgstaller.okhttp.digest.CachingAuthenticator
-import com.burgstaller.okhttp.digest.CachingAuthenticatorDecorator
+import com.burgstaller.okhttp.basic.CachingAuthenticatorDecorator
 import com.burgstaller.okhttp.digest.Credentials
 import com.burgstaller.okhttp.digest.DigestAuthenticator
 import com.vzlpr.controller.data.model.CameraConfig
